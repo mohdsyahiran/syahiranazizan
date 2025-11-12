@@ -56,37 +56,37 @@ export default function Portfolio() {
 
   const projects = [
     {
-      id: "ecommerce",
-      title: "E-Commerce Platform",
+      id: "nikahsanding",
+      title: "Nikahsanding.com",
       description:
         "A full-stack e-commerce solution with payment integration and real-time inventory management.",
-      tags: ["React", "Node.js", "MongoDB", "Stripe"],
+      tags: ["PHP", "Tailwind", "SQL"],
       link: "#",
     },
     {
-      id: "taskmanagement",
-      title: "Task Management App",
+      id: "mytasbih",
+      title: "Digital Tasbih",
       description:
         "Collaborative task management tool with real-time updates and team productivity analytics.",
       tags: ["Next.js", "TypeScript", "PostgreSQL"],
       link: "#",
     },
-    {
-      id: "weather",
-      title: "Weather Dashboard",
-      description:
-        "Real-time weather monitoring dashboard with interactive maps and forecasting.",
-      tags: ["React", "API Integration", "Charts"],
-      link: "#",
-    },
-    {
-      id: "blogcms",
-      title: "Blog CMS",
-      description:
-        "Custom content management system with markdown support and SEO optimization.",
-      tags: ["Next.js", "Tailwind", "Vercel"],
-      link: "#",
-    },
+    // {
+    //   id: "weather",
+    //   title: "Weather Dashboard",
+    //   description:
+    //     "Real-time weather monitoring dashboard with interactive maps and forecasting.",
+    //   tags: ["React", "API Integration", "Charts"],
+    //   link: "#",
+    // },
+    // {
+    //   id: "blogcms",
+    //   title: "Blog CMS",
+    //   description:
+    //     "Custom content management system with markdown support and SEO optimization.",
+    //   tags: ["Next.js", "Tailwind", "Vercel"],
+    //   link: "#",
+    // },
   ];
 
   const portfolioItems = [
@@ -199,7 +199,7 @@ export default function Portfolio() {
             </span>
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl text-gray-600 mb-6 sm:mb-8 max-w-2xl mx-auto px-4">
-            Full-stack developer @ CHUBB Founder of nikahsanding.com
+            Full-stack developer @ CHUBB IT | 25 years old
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center px-4">
             <button
