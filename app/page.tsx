@@ -38,7 +38,7 @@ export default function Portfolio() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const scrollToSection = (sectionId) => {
+  const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
@@ -46,7 +46,7 @@ export default function Portfolio() {
     }
   };
 
-  const scrollToProject = (projectId) => {
+  const scrollToProject = (projectId: string) => {
     const element = document.getElementById(`project-${projectId}`);
     if (element) {
       element.scrollIntoView({ behavior: "smooth", block: "center" });
