@@ -199,8 +199,7 @@ export default function Portfolio() {
             </span>
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl text-gray-600 mb-6 sm:mb-8 max-w-2xl mx-auto px-4">
-            Full-stack developer & creative designer crafting beautiful digital
-            experiences
+            Full-stack developer @ CHUBB Founder of nikahsanding.com
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center px-4">
             <button
